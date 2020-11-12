@@ -21,7 +21,7 @@ Next, create the operator (verify it is running by executing `oc get pods -n roo
 $ oc create -f operator-openshift.yaml
 $ oc create -f cluster.yaml
 ```
-
+If you get a CephCluster error, build with kubetctl manually with command in UI.
 Verify the deployment of the cluster by running `oc get pods -n rook-ceph` as shown below.
 
 ```console
